@@ -1,0 +1,18 @@
+site_name: ABAP GenAI Generated Documentation
+site_url: https://abap-ai.github.io/llm_coder
+theme:
+  name: material
+  features:
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+
+plugins:
+  - search
+
+markdown_extensions:
+- pymdownx.superfences:
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
