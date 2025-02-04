@@ -8,6 +8,7 @@ parent_type: DEVC
 # Class ZCL_LLM_SO_JS
 
 AI Generated documentation.
+
 ## Overview
 
 The `zcl_llm_so_js` class is a test class that implements the `zif_llm_so` interface. It provides a set of methods for creating and manipulating JSON schema definitions. The class is designed to work with the `zif_llm_so` interface, which is not shown in the provided code.
@@ -63,6 +64,7 @@ The class interacts with the following foreign objects:
 * `cl_abap_elemdescr`: A class used to create element descriptors.
 
 Here is a Mermaid diagram that visualizes the logic flow of the class:
+
 ```mermaid
 graph LR
     A[append_to_schema] -->|appends string to schema| B[get_field_info]
@@ -76,5 +78,5 @@ graph LR
     I -->|sets schema definition| J[pre_schema]
     J -->|sets schema definition| K[post_schema]
 ```
-Note that this diagram is not exhaustive and only shows the main interactions between the methods and foreign objects.
 
+Note that this diagram is not exhaustive and only shows the main interactions between the methods and foreign objects.

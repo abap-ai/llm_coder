@@ -8,6 +8,7 @@ parent_type: DEVC
 # Interface ZIF_LLM_CLIENT_JSON_SCHEMA
 
 AI Generated documentation.
+
 ## Overview
 
 The `zif_llm_client_json_schema` interface provides a structured approach to creating JSON schemas dynamically. It offers methods to:
@@ -19,6 +20,7 @@ The `zif_llm_client_json_schema` interface provides a structured approach to cre
 5. `generate_schema`: Produce the final JSON schema as a string
 
 The interface supports defining complex JSON structures with various value types:
+
 - Primitive types: string, number, boolean, integer
 - Supports nullable properties
 - Allows defining properties, objects, and arrays
@@ -37,4 +39,3 @@ classDiagram
 ## Dependencies
 
 - Custom exception class `zcx_llm_validation` for error handling during schema creation
-

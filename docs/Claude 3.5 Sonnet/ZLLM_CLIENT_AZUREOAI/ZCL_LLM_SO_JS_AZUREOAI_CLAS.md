@@ -8,13 +8,17 @@ parent_type: DEVC
 # Class ZCL_LLM_SO_JS_AZUREOAI
 
 AI Generated documentation.
+
 ## Overview
+
 This class implements JSON schema handling for Azure OpenAI responses. It inherits from `zcl_llm_so_js` and provides specialized schema wrapping functionality. The class has no public methods as it only redefines protected methods from its parent class.
 
 ## Dependencies
+
 - Inherits from `zcl_llm_so_js`
 
 ## Details
+
 The class provides a specific JSON schema implementation for Azure OpenAI responses by wrapping the schema content with required Azure OpenAI specific elements:
 
 - `pre_schema`: Adds the opening wrapper including name, strict mode flag and schema opening
@@ -34,6 +38,7 @@ classDiagram
 ```
 
 The schema generation follows this sequence:
+
 ```mermaid
 sequenceDiagram
     participant Parent as zcl_llm_so_js
@@ -45,4 +50,3 @@ sequenceDiagram
     Parent->>Child: post_schema()
     Note over Child: Closes schema structure
 ```
-

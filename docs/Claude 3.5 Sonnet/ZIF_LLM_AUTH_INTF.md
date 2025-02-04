@@ -8,7 +8,9 @@ parent_type: DEVC
 # Interface ZIF_LLM_AUTH
 
 AI Generated documentation.
+
 ## Overview
+
 Interface `ZIF_LLM_AUTH` provides authorization check methods for LLM (Large Language Model) operations. It exposes four methods:
 
 - `CHECK_PROVIDER_MAINTENANCE`: Validates authorization for provider maintenance access
@@ -29,6 +31,6 @@ classDiagram
 ```
 
 ## Dependencies
+
 - Exception class: `ZCX_LLM_AUTHORIZATION`
 - Data type: `ZLLM_MODEL`
-

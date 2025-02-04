@@ -8,10 +8,13 @@ parent_type: DEVC
 # Class ZCX_LLM_AUTHORIZATION
 
 AI Generated documentation.
+
 ## Overview
+
 The `ZCX_LLM_AUTHORIZATION` class is a custom exception class that inherits from `CX_STATIC_CHECK`. It provides a set of constants and methods for handling authorization-related messages. The class is designed to be used in SAP ABAP applications.
 
 ## Dependencies
+
 The class depends on the following:
 
 * `IF_T100_DYN_MSG`
@@ -19,6 +22,7 @@ The class depends on the following:
 * `CX_STATIC_CHECK`
 
 ## Details
+
 ### Class Structure
 
 ```mermaid
@@ -64,4 +68,3 @@ sequenceDiagram
     A->>B: Get message values
     B->>A: Return message values
 ```
-

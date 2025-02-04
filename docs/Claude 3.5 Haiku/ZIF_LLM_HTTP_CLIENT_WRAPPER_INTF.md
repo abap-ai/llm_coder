@@ -8,6 +8,7 @@ parent_type: DEVC
 # Interface ZIF_LLM_HTTP_CLIENT_WRAPPER
 
 AI Generated documentation.
+
 ## Overview
 
 The `zif_llm_http_client_wrapper` interface defines a standardized HTTP client wrapper with the following key methods:
@@ -40,11 +41,10 @@ The interface defines a `response` type with properties like HTTP code, message,
 
 ## Dependencies
 
-- Custom exception classes: 
+- Custom exception classes:
   - `zcx_llm_validation`
   - `zcx_llm_http_error`
 - Configuration types:
   - `zllm_clnt_config`
   - `zllm_providers`
 - Standard SAP interfaces like `if_http_response`
-

@@ -8,6 +8,7 @@ parent_type: DEVC
 # Class ZCL_LLM_COMMON
 
 AI Generated documentation.
+
 ## Overview
 
 The `zcl_llm_common` class provides a set of methods for converting between ABAP data structures and JSON strings. The class is designed to work with the `zllm_implementation` class, which is not shown in the provided code. The main public methods are:
@@ -54,4 +55,3 @@ class zcl_llm_common {
 ```
 
 Note: The class diagram is a simple representation of the class structure and its methods.
-

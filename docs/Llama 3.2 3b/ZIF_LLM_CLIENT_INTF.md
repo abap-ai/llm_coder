@@ -8,10 +8,13 @@ parent_type: DEVC
 # Interface ZIF_LLM_CLIENT
 
 AI Generated documentation.
+
 ## Overview
+
 The `zif_llm_client` interface provides a standardized interface for interacting with the LLM (Large Language Model) client. It allows for the creation of new clients based on the provided configuration and enables the execution of chat requests.
 
 ## Dependencies
+
 The `zif_llm_client` interface depends on the following:
 
 * `zllm_clnt_config`: The configuration for the client.
@@ -22,4 +25,3 @@ The `zif_llm_client` interface depends on the following:
 * `zcx_llm_authorization`: The exception class for authorization errors.
 
 Note: The dependencies are not explicitly listed in the provided code, but they are assumed to be part of the SAP ABAP framework.
-

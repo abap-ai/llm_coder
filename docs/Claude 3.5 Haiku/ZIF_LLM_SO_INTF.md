@@ -8,6 +8,7 @@ parent_type: DEVC
 # Interface ZIF_LLM_SO
 
 AI Generated documentation.
+
 ## Overview
 
 The `ZIF_LLM_SO` interface provides support for structured output with the following key methods:
@@ -28,6 +29,7 @@ The `ZIF_LLM_SO` interface provides support for structured output with the follo
    - Returns: Reference to `CL_ABAP_DATADESCR`
 
 ### Key Types
+
 - `def_description`: A structure containing:
   - `fieldname`: Field name (string)
   - `description`: Field description (string)
@@ -38,4 +40,3 @@ The `ZIF_LLM_SO` interface provides support for structured output with the follo
 
 - `CL_ABAP_DATADESCR`: ABAP runtime type services
 - `ZCX_LLM_VALIDATION`: Custom validation exception class
-

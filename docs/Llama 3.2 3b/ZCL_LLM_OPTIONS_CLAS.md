@@ -8,16 +8,20 @@ parent_type: DEVC
 # Class ZCL_LLM_OPTIONS
 
 AI Generated documentation.
+
 ## Overview
+
 The `zcl_llm_options` class is a custom implementation of the `zif_llm_options` interface, providing methods for setting and retrieving parameters for a language model. The class is designed to handle various parameters such as temperature, top_p, top_k, seed, frequency penalty, presence penalty, and minimum probability. The class uses a private internal table `int_parameters` to store the parameter values.
 
 ## Dependencies
+
 The class depends on the following:
 
 * `zif_llm_options` interface
 * `zcx_llm_validation` exception class
 
 ## Details
+
 ### Method Overview
 
 The class provides the following public methods:
@@ -31,6 +35,7 @@ The class provides the following public methods:
 ### Interaction Flow
 
 The interaction flow between the methods can be visualized as follows:
+
 ```mermaid
 graph LR
     A[set_parameter] -->|sets parameter value| B(get_parameters)
@@ -54,6 +59,7 @@ graph LR
     T -->|returns parameter values| U(set_max_tokens)
     U -->|sets maximum tokens| V(get_parameters)
 ```
+
 ### Interaction with Foreign Objects
 
 The class interacts with the following foreign objects:
@@ -64,4 +70,3 @@ The class interacts with the following foreign objects:
 ### Internal Table
 
 The class uses a private internal table `int_parameters` to store the parameter values. The table is used to store the parameter values and is updated by the `set_parameter` method.
-

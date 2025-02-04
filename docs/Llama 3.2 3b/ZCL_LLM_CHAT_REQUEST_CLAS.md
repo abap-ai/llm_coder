@@ -8,6 +8,7 @@ parent_type: DEVC
 # Class ZCL_LLM_CHAT_REQUEST
 
 AI Generated documentation.
+
 ## Overview
 
 The `ltcl_chat_request` class is a test class that implements the `zif_llm_chat_request` interface. It provides methods for testing chat request functionality, including adding messages, tools, and tool results, as well as clearing messages and tools. The class also provides methods for getting messages and tools, setting structured output, and setting tool choice.
@@ -118,4 +119,3 @@ The `ltcl_chat_request` class interacts with the following foreign objects:
 * `zllm_request` object: This object is used to store the chat request data.
 
 Note: The above diagram is a simplified representation of the interactions between the `ltcl_chat_request` class and its dependencies. It may not show all the interactions or the exact flow of data.
-

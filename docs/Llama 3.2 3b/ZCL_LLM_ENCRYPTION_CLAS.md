@@ -8,27 +8,31 @@ parent_type: DEVC
 # Class ZCL_LLM_ENCRYPTION
 
 AI Generated documentation.
+
 ## Overview
+
 The `zcl_llm_encryption` class is a custom implementation of encryption and decryption functionality. It provides methods for encrypting and decrypting strings using the `SSF_KRN_ENVELOPE` and `SSF_KRN_DEVELOPE` function modules. The class also handles authentication and authorization through the `zcl_llm_common` class.
 
 ## Dependencies
+
 The class depends on the following:
 
-*   `zcl_llm_common` class for authorization and authentication
-*   `SSF_KRN_ENVELOPE` and `SSF_KRN_DEVELOPE` function modules for encryption and decryption
-*   `SSFPSE_FILENAME` function module for getting the profile file
-*   `SSFC_GET_CERTIFICATE` function module for getting the certificate
-*   `SSFC_PARSE_CERTIFICATE` function module for parsing the certificate
+* `zcl_llm_common` class for authorization and authentication
+* `SSF_KRN_ENVELOPE` and `SSF_KRN_DEVELOPE` function modules for encryption and decryption
+* `SSFPSE_FILENAME` function module for getting the profile file
+* `SSFC_GET_CERTIFICATE` function module for getting the certificate
+* `SSFC_PARSE_CERTIFICATE` function module for parsing the certificate
 
 ## Details
+
 ### Class Constructor
 
 The `class_constructor` method initializes the class by:
 
-*   Getting the authorization implementation from the `zcl_llm_common` class
-*   Getting the profile file using the `SSFPSE_FILENAME` function module
-*   Getting the certificate using the `SSFC_GET_CERTIFICATE` function module
-*   Parsing the certificate using the `SSFC_PARSE_CERTIFICATE` function module
+* Getting the authorization implementation from the `zcl_llm_common` class
+* Getting the profile file using the `SSFPSE_FILENAME` function module
+* Getting the certificate using the `SSFC_GET_CERTIFICATE` function module
+* Parsing the certificate using the `SSFC_PARSE_CERTIFICATE` function module
 
 ```mermaid
 graph LR
@@ -69,9 +73,9 @@ graph LR
 
 The class flow is as follows:
 
-*   The `class_constructor` method initializes the class by getting the authorization implementation, profile file, and certificate.
-*   The `encrypt` and `decrypt` methods use the `SSF_KRN_ENVELOPE` and `SSF_KRN_DEVELOPE` function modules to encrypt and decrypt strings.
-*   The class raises exceptions for errors that occur during encryption and decryption.
+* The `class_constructor` method initializes the class by getting the authorization implementation, profile file, and certificate.
+* The `encrypt` and `decrypt` methods use the `SSF_KRN_ENVELOPE` and `SSF_KRN_DEVELOPE` function modules to encrypt and decrypt strings.
+* The class raises exceptions for errors that occur during encryption and decryption.
 
 ```mermaid
 graph LR
@@ -80,4 +84,3 @@ graph LR
     C -->|Decrypt String| D[Return Decrypted Data]
     D -->|Return Decrypted Data| E[End Class]
 ```
-

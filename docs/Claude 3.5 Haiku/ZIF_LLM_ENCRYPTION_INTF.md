@@ -8,7 +8,9 @@ parent_type: DEVC
 # Interface ZIF_LLM_ENCRYPTION
 
 AI Generated documentation.
+
 ## Overview
+
 The `zif_llm_encryption` interface defines a contract for encryption and decryption operations with the following key methods:
 
 1. `decrypt`
@@ -16,6 +18,7 @@ The `zif_llm_encryption` interface defines a contract for encryption and decrypt
    - Input: Encrypted data as `xstring`
    - Output: Decrypted data as `string`
    - Potential Exceptions:
+
      - `zcx_llm_validation`
      - `zcx_llm_authorization`
 
@@ -24,9 +27,10 @@ The `zif_llm_encryption` interface defines a contract for encryption and decrypt
    - Input: Unencrypted data as `string`
    - Output: Encrypted data as `xstring`
    - Potential Exceptions:
+
      - `zcx_llm_validation`
      - `zcx_llm_authorization`
 
 ## Dependencies
-No explicit dependencies are defined in the interface signature.
 
+No explicit dependencies are defined in the interface signature.

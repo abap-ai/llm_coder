@@ -8,6 +8,7 @@ parent_type: DEVC
 # Class ZCL_LLM_HTTP_CLIENT_WRAPPER
 
 AI Generated documentation.
+
 ## Overview
 
 The `zcl_llm_http_client_wrapper` class is a wrapper around the `zcl_llm_http_client` class, providing a more user-friendly interface for interacting with HTTP servers. The class is designed to handle HTTP requests and responses, and provides methods for setting headers, URLs, and communicating with the server.
@@ -91,4 +92,3 @@ The class follows a simple logic flow:
 12. The `set_header` method is called to set the header.
 
 Note: This is a simplified overview of the class and its interactions. The actual implementation may vary depending on the specific requirements and use cases.
-

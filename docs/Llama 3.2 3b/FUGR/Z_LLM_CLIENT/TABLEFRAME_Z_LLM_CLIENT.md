@@ -8,6 +8,7 @@ parent_type: FUGR
 # Function Module TABLEFRAME_Z_LLM_CLIENT
 
 AI Generated documentation.
+
 ### Common Includes
 
 No includes are shown as this is a table frame function group.
@@ -62,4 +63,3 @@ graph LR
 ```
 
 Note: The mermaid diagram is a simplified representation of the function module's logic flow and interactions with foreign objects.
-

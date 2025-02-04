@@ -8,16 +8,20 @@ parent_type: DEVC
 # Class ZCL_LLM_CALL_LOGGER
 
 AI Generated documentation.
+
 ## Overview
+
 The `zcl_llm_call_logger` class is a SAP class responsible for logging call entries in the SAP system. It provides a simple interface for logging calls based on system settings and user filters.
 
 ## Dependencies
+
 The class depends on the following:
 
 * `zllm_system` table to retrieve system settings
 * `zllm_call_log` table to store log entries
 
 ## Details
+
 ### Class Structure
 
 The class has a simple structure with a constructor, a method to add log entries, and a private data member to track the active state of the system.
@@ -56,4 +60,3 @@ The logic flow of the class can be broken down into the following steps:
 * The class uses a simple and straightforward approach to logging calls, making it easy to understand and maintain.
 * The use of a private data member to track the active state of the system allows for efficient and flexible logging.
 * The class can be extended to support additional features, such as logging to different tables or supporting multiple user filters.
-

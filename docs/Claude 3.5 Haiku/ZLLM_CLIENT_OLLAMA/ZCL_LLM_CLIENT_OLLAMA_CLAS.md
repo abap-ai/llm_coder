@@ -8,6 +8,7 @@ parent_type: DEVC
 # Class ZCL_LLM_CLIENT_OLLAMA
 
 AI Generated documentation.
+
 ## Overview
 
 The `zcl_llm_client_ollama` is a specialized ABAP class for interacting with the Ollama Large Language Model (LLM) provider. It inherits from a base LLM client class and implements provider-specific methods for communication with the Ollama API. The class supports:
@@ -19,6 +20,7 @@ The `zcl_llm_client_ollama` is a specialized ABAP class for interacting with the
 - Supporting structured output and tool calls
 
 Key public methods:
+
 - `get_client()`: Static method to create a new Ollama client instance
 - `constructor()`: Initializes the client with configuration
 
@@ -50,6 +52,7 @@ graph TD
 ```
 
 Key implementation details:
+
 - Supports optional API key authentication via custom headers
 - Handles Ollama-specific JSON request formatting
 - Manages structured output requests
@@ -57,4 +60,3 @@ Key implementation details:
 - Provides error handling for HTTP responses and tool call parsing
 
 The class is designed to be flexible, supporting various Ollama API configurations while maintaining a consistent interface with the base LLM client class.
-

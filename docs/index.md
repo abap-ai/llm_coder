@@ -13,6 +13,5 @@ All top-level folders contain a documentation of the same llm client implementat
 * Llama 3.2 3b - surprisingly good for a 3b model, low resource test model
 * Claude 3.5 Haiku
 * Claude 3.5 Sonnet - my personal favorite for ABAP coding
-* Deepseek V3
 * Deepseek R1
-* GPT-4o
+* Mistral Small 3 - a 24b model

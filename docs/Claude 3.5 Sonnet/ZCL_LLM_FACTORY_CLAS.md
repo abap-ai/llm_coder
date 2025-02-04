@@ -8,10 +8,13 @@ parent_type: DEVC
 # Class ZCL_LLM_FACTORY
 
 AI Generated documentation.
+
 ## Overview
+
 The `zcl_llm_factory` class serves as a factory for creating LLM (Large Language Model) clients. It implements the `zif_llm_factory` interface and provides a single public method `get_client` to instantiate LLM clients based on specified models. The class follows the factory pattern and handles validation of model and provider configurations while enforcing authorization checks.
 
 Key features:
+
 - Singleton pattern implementation (private constructor)
 - Model-based client instantiation
 - Configuration validation
@@ -19,6 +22,7 @@ Key features:
 - Dynamic provider class instantiation
 
 ## Dependencies
+
 - Database Tables:
   - ZLLM_CLNT_CONFIG: Stores client configurations
   - ZLLM_PROVIDERS: Stores provider configurations
@@ -30,6 +34,7 @@ Key features:
   - zcx_llm_validation: Validation exception class
 
 ## Details
+
 The class implements a sophisticated factory pattern with multiple validation and configuration layers.
 
 ```mermaid
@@ -45,6 +50,7 @@ flowchart TD
 ```
 
 Key implementation aspects:
+
 1. Authorization Layer:
    - Initialized during class construction via BADI
    - Performs pre-validation checks before client creation
@@ -60,4 +66,3 @@ Key implementation aspects:
    - Allows for flexible provider implementation without factory modifications
 
 The class is designed to be extensible, allowing new providers to be added through configuration rather than code changes.
-

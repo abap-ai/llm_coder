@@ -8,6 +8,7 @@ parent_type: DEVC
 # Class ZCL_LLM_TOOL_PARSER
 
 AI Generated documentation.
+
 ## Overview
 
 The `zcl_llm_tool_parser` class is a custom implementation of the `zif_llm_tool_parser` interface, which is used to parse JSON schema data. The class provides a set of methods to process and generate JSON schema data, including parsing, validation, and generation of schema strings.
@@ -38,6 +39,7 @@ The class has the following main interactions:
 ### Logic Flow
 
 The logic flow of the class can be visualized as follows:
+
 ```
 +---------------+
 |  parse       |
@@ -67,6 +69,7 @@ The logic flow of the class can be visualized as follows:
 |  process_element  |
 +---------------+
 ```
+
 ### Interaction with Foreign Objects
 
 The class interacts with the following foreign objects:
@@ -82,4 +85,3 @@ The class interacts with the following foreign objects:
 * The `process_structure` method handles the structure of an object, including nested structures and tables.
 * The `process_table` method handles the table of an object, including nested tables and elements.
 * The `process_element` method handles the element of an object, including nested elements and attributes.
-

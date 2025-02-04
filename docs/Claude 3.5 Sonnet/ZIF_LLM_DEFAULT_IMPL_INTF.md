@@ -8,7 +8,9 @@ parent_type: DEVC
 # Interface ZIF_LLM_DEFAULT_IMPL
 
 AI Generated documentation.
+
 ## Overview
+
 The interface `ZIF_LLM_DEFAULT_IMPL` provides methods to retrieve various implementation classes for an LLM (Large Language Model) system. It implements the BAdI interface `IF_BADI_INTERFACE` and defines the following key methods:
 
 - `get_json_impl()` - Returns the name of the JSON handling class
@@ -18,12 +20,13 @@ The interface `ZIF_LLM_DEFAULT_IMPL` provides methods to retrieve various implem
 - `get_authorization_impl()` - Returns the authorization implementation (raises `ZCX_LLM_AUTHORIZATION` for auth errors)
 
 ## Dependencies
+
 The interface has dependencies on the following components:
 
 - `IF_BADI_INTERFACE` - Standard SAP BAdI interface
 - `ZIF_LLM_ENCRYPTION` - Encryption provider interface
 - `ZIF_LLM_CALL_LOGGER` - Call logging interface
-- `ZIF_LLM_STATISTICS` - Statistics interface 
+- `ZIF_LLM_STATISTICS` - Statistics interface
 - `ZIF_LLM_AUTH` - Authorization interface
 - `ZCX_LLM_AUTHORIZATION` - Authorization exception class
 
@@ -42,4 +45,3 @@ classDiagram
     ZIF_LLM_DEFAULT_IMPL ..> ZIF_LLM_STATISTICS
     ZIF_LLM_DEFAULT_IMPL ..> ZIF_LLM_AUTH
 ```
-

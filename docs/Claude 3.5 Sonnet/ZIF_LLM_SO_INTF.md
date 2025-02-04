@@ -8,7 +8,9 @@ parent_type: DEVC
 # Interface ZIF_LLM_SO
 
 AI Generated documentation.
+
 ## Overview
+
 The `ZIF_LLM_SO` interface provides functionality for handling structured output schemas. It offers three main methods:
 
 - `SET_SCHEMA`: Configures the schema based on an ABAP data descriptor and optional field descriptions
@@ -27,6 +29,6 @@ classDiagram
 ```
 
 ## Dependencies
+
 - `CL_ABAP_DATADESCR`: Core ABAP runtime type description class
 - `ZCX_LLM_VALIDATION`: Custom exception class for validation errors
-

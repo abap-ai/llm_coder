@@ -8,6 +8,7 @@ parent_type: DEVC
 # Class ZCL_LLM_FACTORY
 
 AI Generated documentation.
+
 ## Overview
 
 The `zcl_llm_factory` class is a factory class responsible for creating and managing LLM (Large Language Model) clients. It provides a public method `get_client` that takes a model and provider name as input and returns a client instance. The class also has a private method `class_constructor` that initializes the factory and sets up the authorization implementation.
@@ -59,4 +60,3 @@ The `class_constructor` method follows this logic flow:
 1. Initialize the factory.
 2. Set up the authorization implementation by calling the `get_authorization_impl` method of the `ZCL_LLM_COMMON` class.
 3. Return.
-

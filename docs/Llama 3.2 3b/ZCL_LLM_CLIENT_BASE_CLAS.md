@@ -8,6 +8,7 @@ parent_type: DEVC
 # Class ZCL_LLM_CLIENT_BASE
 
 AI Generated documentation.
+
 ## Overview
 
 The `zcl_llm_client_base` class is an abstract base class that provides a foundation for building LLM (Large Language Model) clients. It defines the common interface and methods for interacting with LLM providers, handling HTTP responses, and parsing structured output. The class is designed to be extended by concrete provider-specific classes.
@@ -79,4 +80,3 @@ graph LR
 ```
 
 This mermaid diagram illustrates the main interactions between the class and external objects, as well as the logic flow of the class.
-

@@ -8,11 +8,15 @@ parent_type: DEVC
 # Class ZCL_LLM_CLIENT_ANTHROPIC
 
 AI Generated documentation.
+
 ## Overview
+
 The `zcl_llm_client_anthropic` class is a subclass of `zcl_llm_client_base` and is designed to interact with the Anthropic LLM (Large Language Model) API. It provides a set of methods to create and manage requests to the Anthropic API, parse responses, and handle errors.
 
 ## Dependencies
+
 The class depends on the following external objects:
+
 - `zcl_llm_client_base`
 - `zcl_llm_http_client_wrapper`
 - `zcl_llm_common`
@@ -21,6 +25,7 @@ The class depends on the following external objects:
 - `zcl_abap_format`
 
 ## Details
+
 ### Class Structure and Methods
 
 The class has the following public methods:
@@ -59,4 +64,3 @@ The class follows the following logic flow:
 5. `parse_message` parses the message content and handles tool calls.
 6. `handle_http_response` handles the HTTP response from the Anthropic API.
 7. The class returns the parsed response to the caller.
-

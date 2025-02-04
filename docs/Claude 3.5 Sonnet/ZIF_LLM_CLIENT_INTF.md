@@ -8,7 +8,9 @@ parent_type: DEVC
 # Interface ZIF_LLM_CLIENT
 
 AI Generated documentation.
+
 ## Overview
+
 The `ZIF_LLM_CLIENT` interface provides functionality to interact with Large Language Models (LLM). It offers the following key methods:
 
 - `GET_CLIENT` (static): Creates a new LLM client based on provided configuration
@@ -16,8 +18,9 @@ The `ZIF_LLM_CLIENT` interface provides functionality to interact with Large Lan
 - `NEW_REQUEST`: Creates a new chat request object
 
 The interface defines standard role constants for LLM interactions:
+
 - `ROLE_USER`
-- `ROLE_SYSTEM` 
+- `ROLE_SYSTEM`
 - `ROLE_ASSISTANT`
 - `ROLE_TOOL`
 
@@ -31,7 +34,7 @@ classDiagram
 ```
 
 ## Dependencies
+
 - `ZIF_LLM_CHAT_REQUEST` - Interface for chat requests
 - `ZCX_LLM_VALIDATION` - Exception class for validation errors
 - `ZCX_LLM_AUTHORIZATION` - Exception class for authorization errors
-

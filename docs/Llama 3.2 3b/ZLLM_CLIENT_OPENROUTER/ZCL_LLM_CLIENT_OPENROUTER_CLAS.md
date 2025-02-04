@@ -8,10 +8,13 @@ parent_type: DEVC
 # Class ZCL_LLM_CLIENT_OPENROUTER
 
 AI Generated documentation.
+
 ## Overview
+
 The `zcl_llm_client_openrouter` class is a subclass of `zcl_llm_client_base` and is responsible for creating an instance of the `zif_llm_client` interface. It provides methods for getting a client instance, initializing the client, and setting authentication headers.
 
 ## Dependencies
+
 The class depends on the following:
 
 * `zcl_llm_client_base`: The base class that `zcl_llm_client_openrouter` inherits from.
@@ -19,6 +22,7 @@ The class depends on the following:
 * `zcl_llm_common`: A class that provides a method for getting the LLM BADI (Business Application Interface) implementation.
 
 ## Details
+
 ### Class Flow
 
 ```mermaid
@@ -58,4 +62,3 @@ graph LR
 * `get_chat_endpoint`: Returns the chat endpoint URL.
 * `get_http_client`: Gets an HTTP client instance using the `zcl_llm_http_client_wrapper` class.
 * `set_auth`: Sets authentication headers based on the `provider_config-auth_encrypted` and `provider_config-auth_type` fields.
-

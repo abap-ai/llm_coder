@@ -8,6 +8,7 @@ parent_type: DEVC
 # Class ZCL_LLM_TEMPLATE_PARSER
 
 AI Generated documentation.
+
 ## Overview
 
 The `zcl_llm_template_parser` class is a template parser that uses a limited Jinja2-like syntax to render templates with given contexts. The class provides methods to add templates, render templates, and process tokens in the template string. It also handles various control structures, such as if-else conditions, for loops, and nested loops.
@@ -58,6 +59,7 @@ The class interacts with the following foreign objects:
 ### Diagrams
 
 Here is a mermaid diagram showing the main interactions between the class and its dependencies:
+
 ```mermaid
 graph LR
     A[template_type] -->|add_template|> B[template]
@@ -76,5 +78,5 @@ graph LR
     N -->|output_buffer|> O[output_buffer]
     O -->|result|> P[result]
 ```
-Note: This diagram is a simplified representation of the main interactions between the class and its dependencies. It does not show all the details and edge cases.
 
+Note: This diagram is a simplified representation of the main interactions between the class and its dependencies. It does not show all the details and edge cases.

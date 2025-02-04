@@ -8,7 +8,9 @@ parent_type: DEVC
 # Interface ZIF_LLM_OPTIONS
 
 AI Generated documentation.
+
 ## Overview
+
 The `zif_llm_options` interface defines configuration methods for Large Language Model (LLM) call parameters. It provides setter methods for various model generation parameters with specific value ranges and validation:
 
 - `set_temperature`: Controls randomness (range 0-2)
@@ -26,6 +28,6 @@ The `zif_llm_options` interface defines configuration methods for Large Language
 Each setter method raises a `zcx_llm_validation` exception for invalid input values.
 
 ## Dependencies
+
 - Custom exception class: `zcx_llm_validation`
 - Custom type: `zllm_keyvalues` (key-value list for parameters)
-

@@ -8,10 +8,13 @@ parent_type: DEVC
 # Class ZCX_LLM_TEMPLATE_PARSER
 
 AI Generated documentation.
+
 ## Overview
+
 The `ZCX_LLM_TEMPLATE_PARSER` class is a custom exception class designed to handle errors related to template parsing in a large language model (LLM) system. It inherits from `CX_STATIC_CHECK` and provides a set of constants and methods to handle various error scenarios.
 
 ## Dependencies
+
 The class depends on the following external objects:
 
 * `IF_T100_MESSAGE`: an interface for message handling
@@ -19,6 +22,7 @@ The class depends on the following external objects:
 * `SYMSGV`: a global variable for message values
 
 ## Details
+
 ### Class Structure and Methods
 
 The class has the following public methods:
@@ -65,4 +69,3 @@ graph LR
     O -->|check unclosed control structure|> P[unclosed_control_structure]
     P -->|check unclosed token|> Q[unclosed_token]
 ```
-

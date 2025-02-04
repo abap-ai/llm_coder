@@ -8,17 +8,22 @@ parent_type: DEVC
 # Class ZCL_LLM_CLIENT_OLLAMA
 
 AI Generated documentation.
+
 ## Overview
+
 The `zcl_llm_client_ollama` class is a subclass of `zcl_llm_client_base` and provides a client for interacting with the Ollama API. It is designed to handle chat requests and responses, and provides methods for building requests, handling HTTP responses, and parsing messages.
 
 ## Dependencies
+
 The class depends on the following external objects:
+
 - `zcl_llm_http_client_wrapper`: for creating an HTTP client
 - `zcl_llm_common`: for encryption and decryption
 - `zif_llm_client`: for interacting with the Ollama API
 - `zif_llm_tool`: for interacting with tools
 
 ## Details
+
 ### Class Structure
 
 ```mermaid
@@ -60,4 +65,3 @@ The class follows the following logic flow:
 - The class supports multiple tools and can handle tool-specific requests.
 - The class uses a JSON-based format for the request and response data.
 - The class provides a flexible way to handle chat requests and responses.
-

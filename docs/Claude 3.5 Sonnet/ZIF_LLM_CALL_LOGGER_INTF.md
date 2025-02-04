@@ -8,7 +8,9 @@ parent_type: DEVC
 # Interface ZIF_LLM_CALL_LOGGER
 
 AI Generated documentation.
+
 ## Overview
+
 Interface `ZIF_LLM_CALL_LOGGER` provides logging functionality for LLM (Large Language Model) calls. It exposes a single method:
 
 - `ADD`: Adds a new entry to the call log, accepting a parameter of type `ZLLM_CALL_LOG`
@@ -21,5 +23,5 @@ classDiagram
 ```
 
 ## Dependencies
-- Data type `ZLLM_CALL_LOG` for log entry structure
 
+- Data type `ZLLM_CALL_LOG` for log entry structure

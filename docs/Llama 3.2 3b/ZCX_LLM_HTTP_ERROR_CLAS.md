@@ -8,16 +8,20 @@ parent_type: DEVC
 # Class ZCX_LLM_HTTP_ERROR
 
 AI Generated documentation.
+
 ## Overview
+
 The `ZCX_LLM_HTTP_ERROR` class is a custom exception class designed to handle HTTP-related errors in an SAP ABAP application. It inherits from the `CX_STATIC_CHECK` class and provides a set of constants and data members to represent different types of HTTP errors. The class has a single constructor method that initializes the exception object with optional attributes and a previous exception object.
 
 ## Dependencies
+
 The `ZCX_LLM_HTTP_ERROR` class depends on the following:
 
 * `IF_T100_MESSAGE` interface, which provides the `T100KEY` attribute for the exception message.
 * `CX_STATIC_CHECK` class, which is inherited by `ZCX_LLM_HTTP_ERROR`.
 
 ## Details
+
 ### Class Structure
 
 ```mermaid
@@ -72,4 +76,3 @@ sequenceDiagram
     A->>HTTP_PROCESSING_FAILED: msgid = ZLLM_CLIENT, msgno = 008, attr1 = MV_ATTR1, attr2 = MV_ATTR2, attr3 = MV_ATTR3, attr4 = MV_ATTR4
     A->>HTTP_OTHERS: msgid = ZLLM_CLIENT, msgno = 009, attr1 = MV_ATTR1, attr2 = MV_ATTR2, attr3 = MV_ATTR3, attr4 = MV_ATTR4
 ```
-

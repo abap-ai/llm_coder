@@ -8,7 +8,9 @@ parent_type: DEVC
 # Interface ZIF_LLM_DEFAULT_IMPL
 
 AI Generated documentation.
+
 ## Overview
+
 The `zif_llm_default_impl` interface provides a set of default implementations for various LLM (Large Language Model) functionalities. It defines five public methods:
 
 * `get_json_impl`: Returns the name of the JSON class.
@@ -20,5 +22,5 @@ The `zif_llm_default_impl` interface provides a set of default implementations f
 These methods are designed to be used as default implementations, allowing for flexibility and customization in the application.
 
 ## Dependencies
-None
 
+None
