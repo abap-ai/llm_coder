@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_LLM_ADOC_OBJ_BASE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Base LLM Documentation Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>RUN_AGENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Execute the Agent</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>RUN_AGENT</CMPNAME>
+     <SCONAME>CLEAR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reset the agent messages after execution</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RUN_AGENT</CMPNAME>
+     <SCONAME>PROMPT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prompt message</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RUN_AGENT</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Result</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RUN_AGENT</CMPNAME>
+     <SCONAME>ZCX_LLM_ADOC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Error</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
